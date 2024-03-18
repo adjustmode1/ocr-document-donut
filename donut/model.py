@@ -159,6 +159,7 @@ class BARTDecoder(nn.Module):
 
         self.tokenizer = XLMRobertaTokenizer.from_pretrained(
             "hyunwoongko/asian-bart-ecjk" if not name_or_path else name_or_path
+            # "vinai/bartpho-syllable"
         )
 
         self.model = MBartForCausalLM(
