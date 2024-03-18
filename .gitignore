@@ -2,11 +2,9 @@ core.*
 *.bin
 .nfs*
 .vscode/*
-dataset/*
 result/*
 misc/*
 !misc/*.png
-!dataset/.gitkeep
 !result/.gitkeep
 # Byte-compiled / optimized / DLL files
 __pycache__/
